@@ -1,0 +1,17 @@
+{
+  "name": "wa-brat-sticker-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.24",
+    "@napi-rs/canvas": "^0.1.100",
+    "brat-canvas": "^1.0.30",
+    "dotenv": "^16.4.7",
+    "pino": "^9.7.0",
+    "sharp": "^0.35.5"
+  }
+}
