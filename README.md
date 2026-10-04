@@ -4,10 +4,16 @@
 
 Bot WhatsApp berbasis Node.js untuk membuat stiker teks bergaya brat atau mengubah gambar menjadi stiker. Bot terhubung menggunakan pairing code Baileys dan menyimpan sesi secara lokal.
 
+## Demo
+
 <p align="center">
-  <img src="docs/images/brat-sticker-demo.webp" alt="Contoh hasil stiker brat bertuliskan anjay alok" width="320">
-  <br>
-  <em>Pratinjau hasil stiker brat 512 × 512. Ini adalah contoh hasil render, bukan tangkapan layar WhatsApp.</em>
+  <img src="docs/images/brat-demo.jpg" alt="Contoh hasil stiker brat bertuliskan halloo" width="280">
+  &nbsp;&nbsp;
+  <img src="docs/images/chat-demo.jpg" alt="Contoh bot membalas perintah .brat anjay alok dengan stiker di WhatsApp" width="540">
+</p>
+
+<p align="center">
+  <em>Contoh render stiker brat dan balasan stiker langsung di chat WhatsApp.</em>
 </p>
 
 ## Fitur
@@ -120,7 +126,8 @@ Alias `.stiker` juga didukung. Prefix `/` dan `!` juga dapat digunakan, misalnya
 ├── fonts/
 └── docs/
     └── images/
-        └── brat-sticker-demo.webp
+        ├── brat-demo.jpg
+        └── chat-demo.jpg
 ```
 
 Font Arial Narrow diambil dari paket `brat-canvas` yang terpasang di `node_modules`; tidak perlu mengunduh atau menambahkan file font secara manual.
